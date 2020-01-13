@@ -29,6 +29,7 @@ let offWhite = Color(hue: 81, saturation: 5, brightness: 88, alpha: 100)
 let limeGreen = Color(hue: 106, saturation: 64, brightness: 73, alpha: 100)
 let black = Color(hue: 41, saturation: 3, brightness: 0, alpha: 100)
 
+
 // Begin your solution here...
 canvas.drawShapesWithBorders = false
 canvas.drawShapesWithFill = true
@@ -39,6 +40,23 @@ canvas.drawShapesWithBorders = false
 canvas.drawShapesWithFill = true
 canvas.fillColor = black
 canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 400, anchoredBy: AnchorPosition.bottomLeft, borderWidth: 0)
+
+
+//Write the texts
+canvas.drawText(message: "pixies", at: Point(x: 25, y: 410), size: 55)
+canvas.drawText(message: "saturday", at: Point(x: 25, y: 550), size: 12)
+canvas.drawText(message: "december 13 1986", at: Point(x: 25, y: 535), size: 12)
+canvas.drawText(message: "9 pm over 21", at: Point(x: 25, y: 520), size: 12)
+canvas.drawText(message: "at the rat", at: Point(x: 260, y: 550), size: 12)
+canvas.drawText(message: "528 commonwealth", at: Point(x: 260, y: 535), size: 12)
+canvas.drawText(message: "boston, mass", at: Point(x: 260, y: 520), size: 12)
+canvas.textColor = offWhite
+canvas.drawText(message: "with", at: Point(x: 260, y: 450), size: 12)
+canvas.drawText(message: "throwing muses", at: Point(x: 260, y: 435), size: 12)
+canvas.drawText(message: "big dipper", at: Point(x: 260, y: 420), size: 12)
+
+
+
 
 /*:
  ## Use Source Control
